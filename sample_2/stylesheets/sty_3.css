@@ -1,0 +1,65 @@
+.container{
+	/* width:40px ;
+	height: 40px;
+	background-color: green; */
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+
+}
+
+.bdr{
+    margin: 4px;
+	width:40vw ;
+	height: 40vw;
+	background-color:green;
+	flex-flow: row;
+	justify-content: center;
+	align-items: center;
+	 max-width: 100px;
+	max-height: 75px; 
+	min-height: 75px; 
+	min-width: 100px;
+	justify-content: center;
+	text-align: center;
+	padding-top: 40px;
+}
+#b{
+	border: 3px solid red;
+}
+
+#bo{
+	border: 3px groove red;
+}
+
+#bor{
+	border: 3px dotted red;
+}
+
+#bord{
+	border: 3px dashed red;
+}
+
+#borde{
+	border: 3px double red;
+}
+
+#border{
+	border: 3px ridge red;
+}
+
+#borderC{
+	border: 3px inset red;
+}
+
+#borderS{
+	border: 3px outset red;
+}
+
+#borderCS{
+	border: none;
+}
+
+#borderCSS{
+	border: hidden;
+}

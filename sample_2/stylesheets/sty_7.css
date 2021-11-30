@@ -1,0 +1,195 @@
+
+ * {
+        margin: 0;
+        padding: 0%;
+        box-sizing: border-box;
+      }
+      nav {
+        display: flex;
+
+        background-color: darkgrey;
+        position: fixed;
+        width: 100%;
+      }
+      #headname {
+        width: 70%;
+        float: left;
+        /* background-color: #fff; */
+        padding-top: 15px;
+        padding-left: 25vw;
+      }
+      ul {
+        padding-right: 
+        5vw;
+        /* left: 70%; */
+        position: relative;
+        display: flex;
+        list-style: none;
+        flex-direction: row;
+        justify-content: right;
+      }
+      .container {
+        justify-content: center;
+        position: fixed;
+        display: flex;
+        width: 0px;
+        height: 1000px;
+        background-color: red;
+        flex-direction: column;
+        transition: all 0.5s;
+      }
+      li {
+        /* float: right; */
+        padding: 13px 15px;
+      }
+      a {
+        color: blue;
+        text-decoration: none;
+      }
+      .art {
+        background-color: salmon;
+        width: 100%;
+        height: 250px;
+        margin-top: 0px;
+        /* border-radius: 10px; */
+        color: red;
+        border: 3px ridge blue;
+        padding: 10px;
+      }
+      article {
+        display: flex;
+        flex-direction: column;
+      }
+      #fir {
+        margin-top:46px;
+      }
+      .btn {
+        background-color: #2d5def;
+        padding: 0 10px;
+        cursor: pointer;
+        border: none;
+        width: 50px;
+        height: 46px;
+      }
+      footer {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        border: 3px groove green;
+        position: sticky;
+        color: rgb(84, 214, 208);
+        background-color: rgb(12, 8, 12);
+      }
+      table {
+        position: relative;
+      }
+      tr td {
+        position: relative;
+      }
+
+      #btn {
+        display: none;
+        left: -50px;
+      }
+      .item {
+        position: relative;
+        margin: 4px;
+        height: 100px;
+        background-color: violet;
+        padding: 5px;
+        line-height: 2rem;
+      }
+       .dsp {
+        width: 1%;
+        top: 100px;
+      }
+      .atc {
+        transition: margin-left 0.5s;
+        padding: 16px;
+        margin: 20px 0 0 0;
+      }
+      #headname {
+        width: 60%;
+        padding-left: 17vw;
+      }
+     .box {
+        margin: 2px 15px;
+        top: 100px;
+        width: 180px;
+        height: 100px;
+        background-color: blue;
+        padding: 5px 15px;
+        word-break: normal;
+        word-wrap: break-word;
+        overflow: hidden;
+        border: 3px solid black;
+        border-radius: 10px;
+        left: 100px;
+        position: relative;
+      }
+      #b {
+        display: none;
+        transition: all 0.5s ease;
+      }
+
+      #gg3 {
+        margin-top: 10%;
+        padding: 5px 1.3cm;
+      }
+
+      #gg2 {
+        margin-top: 10%;
+        padding: 5px 1.3cm;
+      }
+
+      #gg4 {
+        margin-top: 10%;
+        padding: 5px 1.3cm;
+      }
+
+      #gg5 {
+        margin-top: 10%;
+        padding: 5px 1.3cm;
+      }
+
+      #gg6 {
+        margin-top: 10%;
+        padding: 5px 1.3cm;
+      }
+
+      @media screen and (min-width:1080px){
+        .art{
+          background-color: rgb(55, 0, 253);
+          
+        }
+               nav{
+                 height:46;
+               }
+               
+             }
+             @media (max-width:1080px) and (min-width:420px){
+               .art{
+                 background-color: rgb(0, 247, 255);
+               }
+               .btn{
+                 height:63.33px;
+               }
+                    }
+       
+                @media (max-width:420px) and (min-width:1px){
+                     .art{
+                       background-color: rgb(208, 255, 0);
+                     }
+                  .btn{
+                 height:63.33px;
+               }
+                  nav{
+                    display: flex;
+                    flex-direction: column
+                  }
+                  ul{ display: flex;
+               justify-content: center;
+                    align-items: center;
+               flex-direction: column;}
+                  
+                          }

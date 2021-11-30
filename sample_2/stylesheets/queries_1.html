@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <style>
+    * div {
+      width: 200px;
+      height: 200px;
+      background-color: green;
+    }
+    .bap {
+      background-color: black;
+      color: white;
+      display: flex;
+      border: 3px indigo inset;
+      width: 400px;
+    }
+
+    @media (max-width: 720px) and (min-width: 500px) {
+      .bap {
+        background-color: black;
+        color: red;
+        display: flex;
+        border: 3px indigo inset;
+        width: 300px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+      }
+    }
+  </style>
+
+  <body>
+    <div class="bap">
+      hello
+      <div class="beta">HEllo</div>
+      <div class="beta">HEllo</div>
+    </div>
+  </body>
+</html>
